@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.topnav {
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+ 
+
+  .topnav a {
+    float: right;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+    font-size: 17px;
+  } 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.checkbox{
+    font-size: small;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.deskripsi input{
+    height: 20px;
+}
+
+.tombol{
+    display: flex;
+    
+
+}
+/* button{
+    width: 9%;
+    padding: 10px;
+    color: white;
+    background-color: pink;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+} */
+
+.hapus{
+    width: 9%;
+    padding: 10px;
+    color: white;
+    background-color: pink;
+    border: none;
+    margin: 10px;
+    cursor: pointer; 
+    background-color: red;
+}
+
+.simpan{
+    width: 9%;
+    padding: 10px;
+    color: white;
+    background-color: pink;
+    border: none;
+    margin: 10px;
+    cursor: pointer; 
+}
+
+.update{
+    width: 9%;
+    padding: 10px;
+    color: white;
+    background-color: greenyellow;
+    border: none;
+    margin: 10px;
+    cursor: pointer; 
+}
+
